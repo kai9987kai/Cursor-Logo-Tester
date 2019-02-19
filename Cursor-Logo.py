@@ -102,6 +102,64 @@ def right_ptr():
     root.config(cursor="right_ptr")
 def right_side():
     root.config(cursor="right_side")
+def right_tee():
+    root.config(cursor="right_tee")
+def rtl_logo():
+    root.config(cursor="rtl_logo")
+def rightbutton():
+    root.config(cursor="rightbutton")
+def sailboat():
+    root.config(cursor="sailboat")
+def sb_down_arrow():
+    root.config(cursor="sb_down_arrow")
+def sb_h_double_arrow():
+    root.config(cursor="sb_h_double_arrow")
+def sb_left_arrow():
+    root.config(cursor="sb_left_arrow")
+def sb_right_arrow():
+    root.config(cursor="sb_right_arrow")
+def sb_up_arrow():
+    root.config(cursor="sb_up_arrow")
+def sb_v_double_arrow():
+    root.config(cursor="sb_v_double_arrow")
+def shuttle():
+    root.config(cursor="shuttle")
+def sizing():
+    root.config(cursor="sizing")
+def spider():
+    root.config(cursor="spider")
+def spraycan():
+    root.config(cursor="spraycan")
+def star():
+    root.config(cursor="star")
+def target():
+    root.config(cursor="target")
+def tcross():
+    root.config(cursor="tcross")
+def top_left_arrow():
+    root.config(cursor="top_left_arrow")
+def top_left_corner():
+    root.config(cursor="top_left_corner")
+def top_right_corner():
+    root.config(cursor="top_right_corner")
+def top_side():
+    root.config(cursor="top_side")
+def top_tee():
+    root.config(cursor="top_tee")
+def trek():
+    root.config(cursor="trek")
+def umbrella():
+    root.config(cursor="umbrella")
+def ul_angle():
+    root.config(cursor="ul_angle")
+def watch():
+    root.config(cursor="watch")
+def xterm():
+    root.config(cursor="xterm")
+def X_cursor():
+    root.config(cursor="X_cursor")
+def ur_angle():
+    root.config(cursor="ur_angle")
 ttk.Button(root, text="Wait", command=wait).grid(row = 1, column = 1)
 ttk.Button(root, text="CROSSHAIR", command=CROSSHAIR).grid(row = 2, column = 1)
 ttk.Button(root, text="boat", command=Hand).grid(row = 3, column = 1)
@@ -140,7 +198,7 @@ ttk.Button(root, text="left side", command=left_side).grid(row = 1, column = 2)
 ttk.Button(root, text="left tee", command=left_tee).grid(row = 2, column = 2)
 ttk.Button(root, text="leftbutton", command=leftbutton).grid(row = 3, column = 2)
 ttk.Button(root, text="ll angle", command=ll_angle).grid(row = 3, column = 2)
-ttk.Button(root, text="lr_angle", command=lr_angle).grid(row = 4, column = 2)
+ttk.Button(root, text="lr angle", command=lr_angle).grid(row = 4, column = 2)
 ttk.Button(root, text="man", command=man).grid(row = 5, column = 2)
 ttk.Button(root, text="middlebutton", command=middlebutton).grid(row = 6, column = 2)
 ttk.Button(root, text="mouse", command=mouse).grid(row = 7, column = 2)
@@ -150,7 +208,35 @@ ttk.Button(root, text="plus", command=plus).grid(row = 10, column = 2)
 ttk.Button(root, text="question arrow", command=question_arrow).grid(row = 11, column = 2)
 ttk.Button(root, text="right ptr", command=right_ptr).grid(row = 12, column = 2)
 ttk.Button(root, text="right side", command=right_side).grid(row = 13, column = 2)
-ttk.Button(root, text="Close", command=Close).grid(row = 30, column = 2)
+ttk.Button(root, text="right tee", command=right_tee).grid(row = 14, column = 2)
+ttk.Button(root, text="rightbutton", command=rightbutton).grid(row = 15, column = 2)
+ttk.Button(root, text="rtl_logo", command=rtl_logo).grid(row = 16, column = 2)
+ttk.Button(root, text="sailboat", command=sailboat).grid(row = 16, column = 2)
+ttk.Button(root, text="sb_down_arrow", command=sb_down_arrow).grid(row = 16, column = 2)
+ttk.Button(root, text="sb_h_double_arrow", command=sb_h_double_arrow).grid(row = 17, column = 2)
+ttk.Button(root, text="sb_left_arrow", command=sb_left_arrow).grid(row = 18, column = 2)
+ttk.Button(root, text="sb_right_arrow", command=sb_right_arrow).grid(row = 19, column = 2)
+ttk.Button(root, text="sb_up_arrow", command=sb_up_arrow).grid(row = 20, column = 2)
+ttk.Button(root, text="sb_v_double_arrow", command=sb_v_double_arrow).grid(row = 19, column = 2)
+ttk.Button(root, text="shuttle", command=shuttle).grid(row = 21, column = 2)
+ttk.Button(root, text="sizing", command=sizing).grid(row = 22, column = 2)
+ttk.Button(root, text="spider", command=spider).grid(row = 23, column = 2)
+ttk.Button(root, text="spraycan", command=spraycan).grid(row = 25, column = 2)
+ttk.Button(root, text="star", command=star).grid(row = 25, column = 2)
+ttk.Button(root, text="target", command=target).grid(row = 26, column = 2)
+ttk.Button(root, text="tcross", command=tcross).grid(row = 27, column = 2)
+ttk.Button(root, text="top_left_arrow", command=top_left_arrow).grid(row = 28, column = 2)
+ttk.Button(root, text="top_right_corner", command=top_right_corner).grid(row = 29, column = 2)
+ttk.Button(root, text="top_side", command=top_side).grid(row = 24, column = 2)
+ttk.Button(root, text="top_tee", command=top_tee).grid(row = 30, column = 2)
+ttk.Button(root, text="ul_angle", command=ul_angle).grid(row = 1, column = 3)
+ttk.Button(root, text="trek", command=trek).grid(row = 2, column = 3)
+ttk.Button(root, text="ul_angle", command=ul_angle).grid(row = 3, column = 3)
+ttk.Button(root, text="umbrella", command=umbrella).grid(row = 4, column = 3)
+ttk.Button(root, text="ur angle", command=ur_angle).grid(row = 5, column = 3)
+ttk.Button(root, text="xterm", command=xterm).grid(row = 6, column = 3)
+ttk.Button(root, text="X_cursor", command=X_cursor).grid(row = 7, column = 3)
+ttk.Button(root, text="Close Program", command=Close).grid(row = 30, column = 14)
 root.attributes('-fullscreen', True)
 root.bind('<Escape>', lambda e: root.destroy())
 root.mainloop()
